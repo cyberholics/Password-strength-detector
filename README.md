@@ -10,9 +10,9 @@ This can be done with the help of artificial intelligence (AI), as an AI model c
 
 ## Project files explained
 
-- **password strength detector.ipynb:** This is a Jupyter notebook where I performed exploratory data analysis (EDA) on the data, preprocessed the data and trained my model
+- **password strength detector.ipynb:** This is a Jupyter notebook where I performed exploratory data analysis (EDA) on the data, preprocessed the data and trained my model.
   
-- **data.csv:** This is a dataset of 690 thousand samples of passwords stored in a comma-separated value (CSV) format. I used data to train the AI model
+- **data.csv:** This is a dataset of 690 thousand samples of passwords stored in a comma-separated value (CSV) format. I used data to train the AI model.
 
 ## Project Demo
 video
