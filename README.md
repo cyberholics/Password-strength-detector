@@ -39,9 +39,10 @@ Running this project requires you to be familiar with the command line; Navigate
 
 ## Project Demo
 I tried  `heyhey`
-
+![Weak password](https://github.com/cyberholics/Password-strength-detector/blob/main/weak%20password.png)
 
 I tried `heyheyQ@11` 
+![Medium password](https://github.com/cyberholics/Password-strength-detector/blob/main/meduim%20pass.png)
 
 I tried `sakaryal&#305;` 
-
+![Strong password](https://github.com/cyberholics/Password-strength-detector/blob/main/strong%20password.png)
