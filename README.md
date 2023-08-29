@@ -9,8 +9,10 @@ To enhance application security, it's crucial to encourage users to create stron
 This can be done with the help of artificial intelligence (AI), as an AI model can learn what constitutes a strong or weak password and assist users in detecting whether their password is weak or not. In this project, I have developed an AI system to address this issue. To learn more about this solution, visit this [blog]().
 
 ## Project files explained 
+- password strength detector.ipynb: This is a Jupyter notebook where I performed exploratory data analysis (EDA) on the data, preprocessed the data and trained my model
+- data.csv: This is a dataset of 690 thousand samples of passwords stored in a comma-separated value (CSV) format. I used data to train the AI model
 
 ## Project Demo
 video
 
-Passwords i used: heyhey, heyheyQ@11, sakaryal&#305;
+Passwords i used: heyhey, heyheyQ@11, sakaryal&#305; 
