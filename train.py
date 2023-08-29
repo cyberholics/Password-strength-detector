@@ -7,6 +7,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer 
+from custom_token import tokens
+
+# Rest of your code
+
 print("libraries imported")
 
 # read and process the data
@@ -15,10 +19,6 @@ df = pd.read_csv("data.csv", on_bad_lines='skip')
 df=df.dropna()
 X=df.drop("strength",axis=1).values.flatten()
 y=df["strength"].values
-def tokens(string):
-    """break strings into characters"""
-    return [x for x in string]
-
 print("data processed")
 
 # Machine learning pipeline
