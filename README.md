@@ -14,6 +14,12 @@ This can be done with the help of artificial intelligence (AI), as an AI model c
   
 - **data.csv:** This is a dataset of 690 thousand samples of passwords stored in a comma-separated value (CSV) format. I used data to train the AI model.
 
+- **password_model.pkl:** This is the saved model that will be used for the prediction.
+
+- **train.py:** This is a Python script that trains and saves the model.
+
+- **predict.py:** This is the Flask app to run the prediction service.
+
 ## Project Demo
 video
 
