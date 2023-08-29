@@ -21,6 +21,10 @@ This can be done with the help of artificial intelligence (AI), as an AI model c
 - **predict.py:** This is the Flask app to run the prediction service.
 
 ## Project Demo
-video
+Images
 
-Passwords i used: heyhey, heyheyQ@11, sakaryal&#305; 
+I tried  `heyhey`, 
+
+I tried `heyheyQ@11` 
+
+I tried `sakaryal&#305;` 
