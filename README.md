@@ -27,7 +27,7 @@ This can be done with the help of artificial intelligence (AI), as an AI model c
 ## Running the project
 
 Running this project requires you to be familiar with the command line; Navigate to you command line and run the following commnad. 
-1) Clone this repo: `https://github.com/cyberholics/Password-strength-detector.git`
+1) Clone this repo: `git clone https://github.com/cyberholics/Password-strength-detector.git`
 2) Enter the project directory: cd `Password-strength-detector`
 3) Create a virtual environment with dependencies:`pipenv install`
 4) Run the training script: `python train.py` 
