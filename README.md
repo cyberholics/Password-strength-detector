@@ -8,9 +8,9 @@ When users choose weak or easily guessable passwords, they inadvertently expose 
 To enhance application security, it's crucial to encourage users to create strong, unique passwords.
 This can be done with the help of artificial intelligence (AI), as an AI model can learn what constitutes a strong or weak password and assist users in detecting whether their password is weak or not. In this project, I have developed an AI system to address this issue. To learn more about this solution, visit this [blog](https://dev.to/cyber_holics/password-strength-detector-with-machine-learning-3m5g).
 
-## Project files explained
+## Project key files explained
 
-- **password strength detector.ipynb:** This is a Jupyter notebook where I performed exploratory data analysis (EDA) on the data, preprocessed the data and trained my model.
+- **password strength detector.ipynb:** This is a Jupyter notebook where I performed exploratory data analysis (EDA) on the data, preprocessed the data, and trained my model.
   
 - **data.csv:** This is a dataset of 690 thousand samples of passwords stored in a comma-separated value (CSV) format. I used data to train the AI model.
 
@@ -20,10 +20,26 @@ This can be done with the help of artificial intelligence (AI), as an AI model c
 
 - **predict.py:** This is the Flask app to run the prediction service.
 
-## Project Demo
-Images
+- **request.py:** This script sends a request to the web service(predict.py) which accepts user's password as input and returns a prediction of whether the password is weak,strong, or medium.
 
-I tried  `heyhey`, 
+- **Pipfile & Pipfile.lock:** These are dependencies management files used to create a virtual environment for the machine learning project. This is to ensure the reproducibility of the project.
+
+## Running the project
+
+Running this project requires you to be familiar with the command line; Navigate to you command line and run the following commnad. 
+1) Clone this repo: `https://github.com/cyberholics/Password-strength-detector.git`
+2) Enter the project directory: cd `Password-strength-detector`
+3) Create a virtual environment with dependencies:`pipenv install`
+4) Run the training script: `python train.py` 
+5) Get predictions with the trained model: `predict.py`
+6) Send the user password as input to get a prediction: From another terminal session in the project directory, run `python request.py`
+
+
+
+
+## Project Demo
+I tried  `heyhey`
+
 
 I tried `heyheyQ@11` 
 
